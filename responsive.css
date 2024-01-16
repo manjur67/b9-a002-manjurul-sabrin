@@ -18,7 +18,7 @@ body{
 }
 .site-title-div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 12px;
     align-items: center;
 }
@@ -48,6 +48,11 @@ nav li{
 }
 nav a{
     text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
 }
 .nav-menu-icon{
     /* display: none; */
@@ -152,7 +157,7 @@ nav a{
 
 /* popular-tour-section */
 .popular-tour-section{
-    margin-top: 120px;
+    margin-top: 100px;
     height: 540px;
     display: flex;
     /* justify-content: center; */
@@ -224,7 +229,7 @@ nav a{
 
 /* destination-section */
 .destination-section{
-    margin-top: 120px;
+    margin-top: 100px;
 
     display: flex;
     flex-direction: column;
@@ -325,4 +330,198 @@ nav a{
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
+}
+
+/* why-choose-us-section */
+.why-choose-us-section{
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.why-choose-us-section > h2{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-choose-us-section > p{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.why-choose-us-info-row{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+.why-choose-us-info-row > div{
+    width: 573px;
+    height: 284px;
+    padding-left: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.info-items img{
+    width: 64px;
+    height: 64px;
+}
+.info-items h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.info-items p{
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* newsletter-section */
+.newsletter-section{
+    margin-top: 100px;
+    height: 422px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+.newsletter-div1{
+    height: 322px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 8px;
+    border: 1px solid #FF5400;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.newsletter-div1 h2{
+    margin-bottom: -5px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.newsletter-div1 p{
+    margin-bottom: 5px;
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.newsletter-div1 form{
+    margin-left: -15px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.newsletter-div1 form input{
+    width: 393px;
+    height: 52px;
+
+    border-radius: 8px;
+    border-style: none;
+    background: rgba(19, 19, 24, 0.05);
+
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.newsletter-div1 form button{
+    width: 393px;
+    height: 52px;
+
+    border-radius: 8px;
+    border-style: none;
+    background: #FF5400;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+.newsletter-div2{
+    width: 60%;
+    height: 422px;
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    background-image: url('images/Rectangle\ 8\ \(1\).png');
+
+    border-radius: 16px;
+    background: url('images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+}
+.newsletter-div2 div{
+    margin-top: 255px;
+    margin-right: 5px;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+
+    border-radius: 16px;
+    background: #FF5400;
+}
+.newsletter-div2 div p{
+    margin-bottom: -20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
+.newsletter-div2 div h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* footer */
+.footer{
+    width: 1170px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .site-title-div{
+    margin-bottom: -20px;
+}
+.footer p{
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer .social-icons{
+    display: flex;
+    gap: 20px;
 }
