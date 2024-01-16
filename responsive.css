@@ -221,3 +221,108 @@ nav a{
 
     border-radius: 16px;
 }
+
+/* destination-section */
+.destination-section{
+    margin-top: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.destination-section h2{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-section p{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.destination-gallery{
+    margin-top: 20px;
+}
+.destination-gallery-row{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.row-image1{
+    background-image: url('images/Rectangle\ 5.png');
+    
+    width: 573px;
+    height: 300px;
+    
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+}
+.row-image2{
+    background-image: url('images/Rectangle\ 8.png');
+    
+    width: 573px;
+    height: 300px;
+    
+    border-radius: 16px;
+    fill: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle\ 8.png'), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+}
+.row-image3{
+    width: 374px;
+    height: 286px;
+
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+}
+.row-image4{
+    background-image: url('images/Rectangle\ 7.png');
+
+    width: 474px;
+    height: 286px;
+
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+}
+.row-image5{
+    background-image: url('images/Rectangle\ 9.png');
+
+    width: 274px;
+    height: 286px;
+
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+}
+.row-image6{
+    background-image: url('images/Rectangle\ 11.png');
+
+    width: 473px;
+    height: 300px;
+
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+}
+.row-image7{
+    background-image: url('images/Rectangle\ 10.png');
+
+    width: 673px;
+    height: 300px;
+
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+}
+.destination-gallery-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
