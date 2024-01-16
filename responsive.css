@@ -524,6 +524,12 @@ nav a{
     display: flex;
     gap: 20px;
 }
+.footer-line{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 600px) {
     body{
@@ -749,5 +755,9 @@ nav a{
     }
     .footer .social-icons{
         font-size: 24px;
+    }
+    .footer-line{
+        width: 400px;
+        height: 1px;
     }
 }
