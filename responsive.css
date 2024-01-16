@@ -371,6 +371,7 @@ nav a{
     background: rgba(41, 206, 246, 0.05);
 }
 .info-items img{
+    margin-top: 50px;
     width: 64px;
     height: 64px;
 }
